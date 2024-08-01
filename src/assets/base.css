@@ -1,0 +1,97 @@
+/* custom properties */
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url(./fonts/Roboto-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+
+:root {
+    --clr-primary-red: 4, 100%, 67%;
+
+    --clr-neutral-200: 0, 0%, 100%; /* white */
+    --clr-neutral-300: 231, 7%, 60%; /* grey */
+    --clr-neutral-400: 235, 18%, 26%; /* charcoal grey */
+    --clr-neutral-500: 234, 29%, 20%; /* dark slate grey */
+
+    --clr-accent-300: 4, 100%, 67%;
+    --clr-accent-400: 14, 100%, 61%;
+    --clr-accent-500: 346, 100%, 66%;
+
+    --ff-default: "Roboto", sans-serif;
+
+    --fs-300: 0.75rem;
+    --fs-400: 1rem;
+    --fs-900: 2.5rem;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+/* CSS reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+* {
+  margin: 0;
+  font: inherit;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove list style on ul and ol elements */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+  padding: 0;
+}
+
+#app {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+body {
+    font-family: var(--ff-default);
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    display: grid;
+    place-items: center;
+
+    color: hsl(var(--clr-neutral-500));
+    background-color: hsl(var(--clr-neutral-400));
+}
