@@ -104,6 +104,7 @@ input:not(:focus):user-invalid {
   text-align: center;
   text-decoration: none;
   padding: 1rem;
+  height: fit-content;
   border-radius: 0.5rem;
   border: none;
   color: hsl(var(--clr-neutral-200));
