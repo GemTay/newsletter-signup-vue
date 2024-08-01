@@ -32,33 +32,39 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./src/assets/solution-screenshots/desktop-screenshot.png" width="50%">
-<img src="./src/assets/solution-screenshots/success-screenshot.png" width="50%">
+<img src="./src/assets/solution-screenshots/desktop-screenshot.png" width="70%">
+<img src="./src/assets/solution-screenshots/success-screenshot.png" width="70%">
 
-<img src="./src/assets/solution-screenshots/mobile-screenshot.png" width="25%">
+<img src="./src/assets/solution-screenshots/mobile-screenshot.png" width="30%">
 
-### Project Setup
-
-```sh
+### Project setup
+```
 npm install
 ```
 
-#### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+#### Compiles and hot-reloads for development
+```
+npm run serve
 ```
 
-#### Compile and Minify for Production
-
-```sh
+#### Compiles and minifies for production
+```
 npm run build
 ```
+
+#### Lints and fixes files
+```
+npm run lint
+```
+
+#### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
 
 ### Links
 
 - Solution URL: [Add solution URL here](pending frontend mentor solution upload)
-- Live Site URL: [https://gemtay.github.io/newsletter-signup-form/home](https://gemtay.github.io/newsletter-signup-form/home)
+- Live Site URL: [https://gemtay.github.io/newsletter-signup-vue/#/](https://gemtay.github.io/newsletter-signup-vue/#/)
 
 ## My process
 

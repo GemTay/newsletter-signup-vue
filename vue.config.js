@@ -1,5 +1,5 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  publicPath: "/newsletter-signup-vue/",
+  publicPath: process.env.NODE_ENV === "production" ? "/newsletter-signup-vue/" : "/",
   transpileDependencies: true,
 });
