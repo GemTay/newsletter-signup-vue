@@ -63,7 +63,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Links
 
-- Solution URL: [Add solution URL here](pending frontend mentor solution upload)
+- Solution URL: [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-server-side-validation-using-vuejs-g5QgW0Laru)
 - Live Site URL: [https://gemtay.github.io/newsletter-signup-vue/#/](https://gemtay.github.io/newsletter-signup-vue/#/)
 
 ## My process
